@@ -8,9 +8,9 @@ export default function CodeCard() {
     <div className="code-card">
       <div className="code-top">
         <div className="dots">
-          <i className="bg-red-500!"/>
-          <i className="bg-yellow-500!"/>
-          <i className="bg-green-500!"/>
+          <i className="bg-red-500!" />
+          <i className="bg-yellow-500!" />
+          <i className="bg-green-500!" />
         </div>
         <span className="file">engineer.ts</span>
       </div>
@@ -32,8 +32,6 @@ export default function CodeCard() {
           {" "}
           focus<span className="c-pun">:</span> <span className="c-pun">[</span>
           <span className="c-str">&quot;web&quot;</span>
-          <span className="c-pun">,</span>{" "}
-          <span className="c-str">&quot;backend&quot;</span>
           <span className="c-pun">,</span>{" "}
           <span className="c-str">&quot;mobile&quot;</span>
           <span className="c-pun">,</span>{" "}
@@ -59,7 +57,7 @@ export default function CodeCard() {
           <span className="c-fn">Deployment</span>
           <span className="c-pun">:</span> <span className="c-pun">()</span>{" "}
           <span className="c-pun">=&gt;</span>{" "}
-          <span className="c-str">&quot;production&quot;</span>
+          <span className="c-str">&quot;production ready&quot;</span>
           <span className="c-pun">,</span>
         </span>
         {"\n"}

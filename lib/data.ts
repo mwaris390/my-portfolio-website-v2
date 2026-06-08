@@ -11,9 +11,9 @@ export const NAV_LINKS = [
 export const HERO = {
   eyebrow: "Full Stack Software Developer",
   leadHtml:
-    "I'm Muhammad Waris — a full stack developer building enterprise web & mobile platforms end to end. 2.5+ years shipping HR, POS, ERP and AI products with React, Next.js, Node and React Native.",
+    "I'm Muhammad Waris — a full stack developer building enterprise web & mobile platforms end to end. Over 3+ years shipping HR, POS, ERP and AI products with React, Next.js, Node and React Native.",
   stats: [
-    { value: "2.5+", label: "Years experience" },
+    { value: "3+", label: "Years experience" },
     { value: "10K+", label: "Daily transactions handled" },
     { value: "30+", label: "Technologies" },
   ],

@@ -22,7 +22,7 @@ const SITE_URL = "https://waris.dev";
 const NAME = "Muhammad Waris";
 const ROLE = "Full Stack Developer";
 const DESCRIPTION =
-  "Muhammad Waris — Full-Stack Software Developer with 2.5+ years building enterprise web & mobile platforms (HR, POS, ERP and AI products) with React, Angular.js, Next.js, Node and React Native.";
+  "Muhammad Waris — Full-Stack Software Developer with 3+ years building enterprise web & mobile platforms (HR, POS, ERP and AI products) with React, Angular.js, Next.js, Node and React Native.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

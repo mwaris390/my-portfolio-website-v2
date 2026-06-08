@@ -23,7 +23,7 @@ export default function About() {
               </h2>
             </Reveal>
             <Reveal as="p" delay={1}>
-              I&apos;m a full stack developer with 2.5+ years building
+              I&apos;m a full stack developer with more than 3 years building
               enterprise web and mobile applications in fast moving agile teams.
               I own the whole arc — frontend architecture, backend services, API
               design and database integration.
