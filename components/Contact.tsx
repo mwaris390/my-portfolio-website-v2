@@ -4,7 +4,7 @@ import { useState } from "react";
 import Reveal from "./Reveal";
 import Starfield from "./Starfield";
 import { CONTACT } from "@/lib/data";
-import { ArrowRight, Mail, Phone, LinkedIn, Globe, Pin } from "./Icons";
+import { ArrowRight, Mail, Phone, LinkedIn, Globe, Pin ,Upwork} from "./Icons";
 import { Email } from "@/lib/email";
 
 type Status = { msg: string; kind: "" | "ok" | "err" };
@@ -96,6 +96,20 @@ export default function Contact() {
                 <div>
                   <div className="k">LINKEDIN</div>
                   <div className="v">{CONTACT.linkedinLabel}</div>
+                </div>
+              </a>
+              <a
+                href={CONTACT.upWork}
+                target="_blank"
+                rel="noopener"
+                className="c-card"
+              >
+                <span className="ic">
+                  <Upwork />
+                </span>
+                <div>
+                  <div className="k">Upwork</div>
+                  <div className="v">Muhammad Waris</div>
                 </div>
               </a>
               <a

@@ -239,5 +239,6 @@ export const CONTACT = {
   github: "https://github.com/mwaris390",
   website: "https://waris.dev",
   websiteLabel: "waris.dev",
+  upWork: "https://www.upwork.com/freelancers/~0146e5a165a98084b5?mp_source=share",
   location: "Gujrat, Pakistan · Remote",
 };

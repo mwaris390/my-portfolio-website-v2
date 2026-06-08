@@ -2,24 +2,34 @@
 
 import Image from "next/image";
 import Reveal from "./Reveal";
-import { PROJECTS } from "@/lib/data";
+import { PROJECTS, CONTACT } from "@/lib/data";
 import { ArrowUpRight } from "./Icons";
+import Contact from "./Contact";
 
 export default function Projects() {
   return (
-    <section id="projects" className="section" style={{ background: "var(--bg-pure)" }}>
+    <section
+      id="projects"
+      className="section"
+      style={{ background: "var(--bg-pure)" }}
+    >
       <div className="wrap">
         <Reveal className="section-head">
-          <span className="eyebrow"><span className="dot" /> Projects</span>
+          <span className="eyebrow">
+            <span className="dot" /> Projects
+          </span>
           <h2>Things I&apos;ve Deployed.</h2>
-          <p>Web and mobile Applications I&apos;ve designed and engineered end to end.</p>
+          <p>
+            Web and mobile Applications I&apos;ve designed and engineered end to
+            end.
+          </p>
         </Reveal>
         <div className="proj-grid">
           {PROJECTS.map((p, i) => (
             <Reveal
               as="article"
               className="proj-card"
-              delay={((i % 3) || undefined) as 1 | 2 | undefined}
+              delay={(i % 3 || undefined) as 1 | 2 | undefined}
               key={p.title}
             >
               <div className="proj-cover">
@@ -47,6 +57,11 @@ export default function Projects() {
             </Reveal>
           ))}
         </div>
+      </div>
+      <div className="flex justify-center">
+        <a href={CONTACT.github} target="_blank" className="mt-12 btn btn-dark">
+          View More Projects
+        </a>
       </div>
     </section>
   );
