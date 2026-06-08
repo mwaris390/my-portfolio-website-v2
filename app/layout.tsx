@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
-import { Plus_Jakarta_Sans ,JetBrains_Mono } from "next/font/google";
+import { Plus_Jakarta_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 /* Self-hosted, swap-optimized fonts (no render-blocking external requests). */
 const jakarta = Plus_Jakarta_Sans({
@@ -149,6 +150,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         {children}
+        <Analytics />
       </body>
     </html>
   );
