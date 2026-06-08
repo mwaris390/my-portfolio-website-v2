@@ -12,7 +12,9 @@ export type BrandIcon = { path: string; hex: string; title: string };
 
 export function getIcon(slug?: string | null): BrandIcon | null {
   if (!slug) return null;
-  const icon = (simpleIcons as Record<string, BrandIcon | undefined>)[slug];
+  const icon = (
+    simpleIcons as unknown as Record<string, BrandIcon | undefined>
+  )[slug];
   if (!icon || !icon.path) return null;
   return { path: icon.path, hex: icon.hex, title: icon.title };
 }
