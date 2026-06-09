@@ -11,7 +11,7 @@ export const NAV_LINKS = [
 export const HERO = {
   eyebrow: "Full Stack Software Developer",
   leadHtml:
-    "I'm Muhammad Waris — a full stack developer building enterprise web & mobile platforms end to end. Over 3+ years shipping HR, POS, ERP and AI products with React, Next.js, Node and React Native.",
+    "I'm Muhammad Waris — a full stack developer building enterprise web & mobile platforms end to end. Over 3+ leading and developing systems such as HR, POS, ERP and AI products with React, Next.js, Node and React Native.",
   stats: [
     { value: "3+", label: "Years experience" },
     { value: "10K+", label: "Daily transactions handled" },
@@ -172,12 +172,28 @@ export const EXPERIENCE: Experience[] = [
     company: "Technoverse · Gujrat, Pakistan",
     desc: "Design and ship enterprise web and mobile platforms end to end — backend services, data models, RBAC, APIs and pixel perfect frontends — across HR, manufacturing and business management domains.",
     points: [
-      { html: "Architected an <b>enterprise HR Management System</b> for a <b>Saudi</b> security firm — RBAC, attendance, duty deployment, payroll and geolocation. Supported <b>1,000+ employees</b> and cut manual inquiry time by <b>90%</b>." },
-      { html: "Built a high throughput <b>Inventory &amp; POS system</b> with barcode processing and thermal printing — handling <b>10,000+ daily transactions</b> and reducing distribution time by <b>80%</b>." },
-      { html: "Led a <b>Quality Control system</b> for food manufacturing (workflow engine + dynamic forms) processing <b>10,000+ records/day</b>, cutting report time and paper usage by <b>80–90%</b>." },
-      { html: "Delivered a modular <b>ERP frontend</b> for a packaging manufacturer spanning HR, inventory, warehouse, production, QC and finance." },
+      {
+        html: "Architected an <b>enterprise HR Management System</b> for a <b>Saudi</b> security firm — RBAC, attendance, duty deployment, payroll and geolocation. Supported <b>1,000+ employees</b> and cut manual inquiry time by <b>90%</b>.",
+      },
+      {
+        html: "Led development team of 2 for a high throughput <b>Inventory &amp; POS system</b> with barcode processing and thermal printing — handling <b>10,000+ daily transactions</b> and reducing distribution time by <b>80%</b>.",
+      },
+      {
+        html: "Led development team of 4 for a <b>Quality Control system</b> for food manufacturing (workflow engine + dynamic forms) processing <b>10,000+ records/day</b>, cutting report time and paper usage by <b>80–90%</b>.",
+      },
+      {
+        html: "Delivered a modular <b>ERP frontend</b> for a packaging manufacturer spanning HR, inventory, warehouse, production, QC and finance.",
+      },
     ],
-    tags: ["Next.js", "Angular.js", "Express.js","Nest.js", "React Native", "PostgreSQL", "Prisma"],
+    tags: [
+      "Next.js",
+      "Angular.js",
+      "Express.js",
+      "Nest.js",
+      "React Native",
+      "PostgreSQL",
+      "Prisma",
+    ],
   },
   {
     when: "Jul 2023 — Sept 2023",
